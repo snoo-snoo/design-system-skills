@@ -37,7 +37,7 @@ StatementClass:
 Practice + System Convention
 
 Maturity:
-CANDIDATE
+CORE (formalized as RULE-COLOR-RESTRAINT-001, Wave B 2026-08-20)
 
 PriorityFloor:
 P5 craft / P4 system consistency; never override contrast (P0)

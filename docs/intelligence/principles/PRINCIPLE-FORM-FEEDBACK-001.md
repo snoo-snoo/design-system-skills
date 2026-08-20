@@ -37,7 +37,7 @@ StatementClass:
 Practice + Heuristic
 
 Maturity:
-CANDIDATE
+CORE (formalized as RULE-FORM-FEEDBACK-001, Wave B 2026-08-20)
 
 PriorityFloor:
 P1 functional clarity / P0 when feedback is required for errors

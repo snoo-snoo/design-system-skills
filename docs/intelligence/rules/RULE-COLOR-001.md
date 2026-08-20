@@ -29,8 +29,10 @@ Anti-pattern:
   Inventing off-theme colors for “this one screen.”
 Evidence:
   - DS-002 Carbon Color overview (tokens, themes, layering, states, a11y)
+  - DS-004 Atlassian Color (roles, emphasis, states, themes, WCAG AA targets)
+  - DS-001 Material tokenized color roles (supporting)
   - Cross-aligns with DS study matrix token APIs (Polaris/Atlassian)
-  - Wave-A synthesis consensus
+  - Wave-A/B synthesis consensus
 Confidence: High
 Maturity: CORE
 Related Rules: RULE-FOCUS-001, RULE-SPACE-001
@@ -38,6 +40,7 @@ PriorityFloor: P0 for contrast-related roles; P4 for token discipline
 LastReviewed: 2026-08-20
 Changelog:
   - 2026-08-20: Promoted CORE from PRINCIPLE-COLOR-001 (Wave-A)
+  - 2026-08-20: Wave B evidence — DS-004 Atlassian color roles/themes/contrast; DS-001 tokenized color
 ```
 
 ## Attribution

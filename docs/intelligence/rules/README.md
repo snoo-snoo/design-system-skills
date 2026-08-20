@@ -1,30 +1,30 @@
-# Canonical Rules Index — Phase 5
+# Canonical Rules Index — Phases 5+
 
-Rules that passed the Wave-A Quality Gate. Only **CORE** rules may generate Universal Skills.
+Rules that passed a Quality Gate. Only **CORE** rules may generate Universal Skills.
 
-| ID | Name | Maturity | Priority | Principle |
-| --- | --- | --- | --- | --- |
-| [RULE-FOCUS-001](RULE-FOCUS-001.md) | Visible, Unobscured Focus | CORE | P0 | PRINCIPLE-FOCUS-001 |
-| [RULE-TOUCH-001](RULE-TOUCH-001.md) | Adequate Pointer Targets | CORE | P0 | PRINCIPLE-TOUCH-TARGET-001 |
-| [RULE-FORM-LABEL-001](RULE-FORM-LABEL-001.md) | Persistent Visible Field Labels | CORE | P0 | PRINCIPLE-FORM-LABEL-001 |
-| [RULE-DIALOG-001](RULE-DIALOG-001.md) | Modal Dialog Focus & Naming | CORE | P0 | PRINCIPLE-DIALOG-001 |
-| [RULE-TABS-001](RULE-TABS-001.md) | Tabs Structure & Keyboard | CORE | P0 | PRINCIPLE-TABS-001 |
-| [RULE-SPACE-001](RULE-SPACE-001.md) | Tokenized Spacing Scale | CORE | P4 | PRINCIPLE-SPACE-001 |
-| [RULE-COLOR-001](RULE-COLOR-001.md) | Semantic Color Tokens + Themes | CORE | P0/P4 | PRINCIPLE-COLOR-001 |
+## Wave A CORE
 
-## Quality Gate (summary)
+| ID | Name | Priority | Principle |
+| --- | --- | --- | --- |
+| [RULE-FOCUS-001](RULE-FOCUS-001.md) | Visible, Unobscured Focus | P0 | PRINCIPLE-FOCUS-001 |
+| [RULE-TOUCH-001](RULE-TOUCH-001.md) | Adequate Pointer Targets | P0 | PRINCIPLE-TOUCH-TARGET-001 |
+| [RULE-FORM-LABEL-001](RULE-FORM-LABEL-001.md) | Persistent Visible Field Labels | P0 | PRINCIPLE-FORM-LABEL-001 |
+| [RULE-DIALOG-001](RULE-DIALOG-001.md) | Modal Dialog Focus & Naming | P0 | PRINCIPLE-DIALOG-001 |
+| [RULE-TABS-001](RULE-TABS-001.md) | Tabs Structure & Keyboard | P0 | PRINCIPLE-TABS-001 |
+| [RULE-SPACE-001](RULE-SPACE-001.md) | Tokenized Spacing Scale | P4 | PRINCIPLE-SPACE-001 |
+| [RULE-COLOR-001](RULE-COLOR-001.md) | Semantic Color Tokens + Themes | P0/P4 | PRINCIPLE-COLOR-001 |
 
-A rule becomes CORE only if:
+## Wave B CORE
 
-1. Clear, reusable, contextualized  
-2. Evidence sufficient (Standard and/or multi-source DS/research)  
-3. Accessibility-compatible (P0–P7 hierarchy)  
-4. AI-applicable and validatable  
-5. Anti-pattern documented  
-6. Conflicts explicit (no silent fake consensus)
+| ID | Name | Priority | Principle |
+| --- | --- | --- | --- |
+| [RULE-RADIUS-SCALE-001](RULE-RADIUS-SCALE-001.md) | Semantic Radius / Shape Scale | P4 | PRINCIPLE-RADIUS-SCALE-001 |
+| [RULE-COLOR-RESTRAINT-001](RULE-COLOR-RESTRAINT-001.md) | Restrained Non-Semantic Color | P4/P5 | PRINCIPLE-COLOR-RESTRAINT-001 |
+| [RULE-FORM-FEEDBACK-001](RULE-FORM-FEEDBACK-001.md) | Visible Form Interaction Feedback | P0/P1 | PRINCIPLE-FORM-FEEDBACK-001 |
+| [RULE-ACTION-001](RULE-ACTION-001.md) | Clear Action Hierarchy | P1/P3 | PRINCIPLE-ACTION-HIERARCHY-001 |
 
-## Not yet rules
+## Still not rules
 
-CANDIDATE principles without CORE elevation: RADIUS-001, RADIUS-SCALE-001, COLOR-RESTRAINT-001, TEXT-ALIGN-001, BORDER-RESTRAINT-001, FORM-FEEDBACK-001, COMPONENT-API-PARITY-001.
-
-EXPERIMENTAL: CARD-SURFACE-001.
+CANDIDATE: RADIUS-001 (nested formula), TEXT-ALIGN-001, BORDER-RESTRAINT-001, COMPONENT-API-PARITY-001  
+EXPERIMENTAL: CARD-SURFACE-001  
+Watch: CX-006 disabled-button guidance
