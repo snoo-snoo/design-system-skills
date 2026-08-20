@@ -39,7 +39,7 @@ StatementClass:
 Practice elevated by Standard pressure + expert consensus against contested pattern
 
 Maturity:
-CANDIDATE (CORE after formal WCAG technique cite in Phase 5)
+CORE (formalized as RULE-FORM-LABEL-001, 2026-08-20; CX-003 default)
 
 PriorityFloor:
 P0

@@ -4,13 +4,15 @@ Evidenzbasiertes Wissensmodell für UI/UX-Regeln und modellunabhängige AI Desig
 
 ## Status
 
-**Phase:** Content Analysis (Phase 2) aktiv — Sample-Reel analysiert; noch keine Skill-Generierung
+**Phase:** Wave A complete (Phases 0–8) — CORE Rules, Universal Skills, Model Adapters (Claude/Grok/ChatGPT), Validation Loop.
 
 Siehe:
 
-- [`docs/intelligence/analysis/README.md`](docs/intelligence/analysis/README.md) — Phase-2 Analysen
-- [`docs/intelligence/sources/README.md`](docs/intelligence/sources/README.md) — Source Index
-- [`docs/intelligence/research/07-research-plan.md`](docs/intelligence/research/07-research-plan.md) — Research-Plan
+- [`docs/intelligence/README.md`](docs/intelligence/README.md) — Überblick
+- [`docs/intelligence/rules/README.md`](docs/intelligence/rules/README.md) — Canonical Rules
+- [`docs/intelligence/skills/README.md`](docs/intelligence/skills/README.md) — Skills + Adapters
+- [`docs/intelligence/validation/README.md`](docs/intelligence/validation/README.md) — Validation Loop
+- [`docs/intelligence/synthesis/wave-a.md`](docs/intelligence/synthesis/wave-a.md) — Cross-Source Synthesis
 
 ## Repo-Setup
 

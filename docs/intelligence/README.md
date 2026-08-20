@@ -6,72 +6,19 @@ Lebendes, evidenzbasiertes Design-System-Wissensmodell für AI — nicht ein Pro
 
 Jede Quelle ist zunächst **Research Material**, nicht Wahrheit.
 
-Strikte Trennung von:
-
-| Klasse | Beispiel |
-| --- | --- |
-| Persönliche Meinung | „Ich mag Rounded Corners“ |
-| Subjektiver Geschmack | „Neon ist modern“ |
-| Persönlicher Workflow | „Ich starte immer in Figma Auto Layout“ |
-| Empirische Best Practice | „Touch Targets ≥ 44×44 px verbessern Fehlerraten“ |
-| Usability-Prinzip | Nielsen Heuristics, Cognitive Load |
-| Accessibility-Anforderung | WCAG 2.2 Contrast / Focus |
-| Design-System-Konvention | Semantic Tokens, Composition |
-| Plattformkonvention | Apple HIG / Material Navigation |
-| Technische Einschränkung | CSS Cascade, Native Controls |
-| Visuelle Präferenz | Brand Expression |
-| Wissenschaftlich belegtes Prinzip | Fitts’s Law, Hick’s Law |
-
-Eine Regel wird erst **CORE**, wenn mehrere hochwertige Quellen oder starke UX-/A11y-Prinzipien sie stützen. Sonst: `EXPERIMENTAL`.
+Eine Regel wird erst **CORE**, wenn mehrere hochwertige Quellen oder starke UX-/A11y-Prinzipien sie stützen. Sonst: `EXPERIMENTAL` / `CANDIDATE`.
 
 ## Zielarchitektur
 
 ```text
-SOURCE LAYER
-Instagram / YouTube / Articles / Design Systems
-        ↓
-CONTENT LAYER
-Videos / Audio / Images / Text
-        ↓
-ANALYSIS LAYER
-Transcription / Vision / NLP
-        ↓
-RESEARCH LAYER
-Observations / Principles / Evidence
-        ↓
-KNOWLEDGE LAYER
-Canonical Rules / Patterns / Taxonomy
-        ↓
-SKILL LAYER
-Atomic AI Design Skills
-        ↓
-MODEL ADAPTER
-Claude / Grok / ChatGPT / Other
-        ↓
-APPLICATION
-UI Generation / UX Review / Design Audit
-        ↓
-VALIDATION
-Consistency / Accessibility / UX / Design System
-```
-
-## Knowledge Graph (Ziel)
-
-```text
-Creator → Content → Observation → Principle → Rule
-  → Pattern → Component → Design Skill → Validation Rule
+SOURCE → CONTENT → ANALYSIS → RESEARCH → KNOWLEDGE → SKILL → ADAPTER → APP → VALIDATION
 ```
 
 ## Prioritätshierarchie (Konfliktlösung)
 
 ```text
 P0 – Accessibility & Usability
-P1 – Functional clarity
-P2 – Information hierarchy
-P3 – Interaction consistency
-P4 – Design-system consistency
-P5 – Visual hierarchy
-P6 – Brand expression
+… 
 P7 – Aesthetic preferences
 ```
 
@@ -81,27 +28,26 @@ P7 – Aesthetic preferences
 | --- | --- | --- |
 | 0 Research & Taxonomy | ✅ | Themen, Quellen, Plan |
 | 1 Source Indexing | ✅ | Source Profiles |
-| 2 Content Analysis | **Aktiv** | Transcripts, Visual Notes, Principle candidates |
-| 3 Principle Extraction | Geplant | Principles + Confidence |
-| 4 Cross-Source Synthesis | Geplant | Consensus / Contradictions |
-| 5 Canonical Rules | Geplant | RULE-xxx Library |
-| 6 Atomic Skills | Geplant | Universal Skills |
-| 7 Model Adapters | Geplant | Claude / Grok / ChatGPT |
-| 8 Validation Loop | Geplant | Self-Review Checklists |
+| 2 Content Analysis | ✅ Wave A | Transcripts, Visual Notes |
+| 3 Principle Extraction | ✅ | Principles + Confidence |
+| 4 Cross-Source Synthesis | ✅ | [synthesis/wave-a.md](synthesis/wave-a.md) |
+| 5 Canonical Rules | ✅ | [rules/](rules/README.md) (7 CORE) |
+| 6 Atomic Skills | ✅ | [skills/universal/](skills/README.md) |
+| 7 Model Adapters | ✅ | [skills/adapters/](skills/adapters/README.md) |
+| 8 Validation Loop | ✅ | [validation/](validation/README.md) |
 
-## Dokumente (Phase 0)
+## Einstiege
 
 | Datei | Inhalt |
 | --- | --- |
-| [research/01-taxonomy.md](research/01-taxonomy.md) | Standard-Taxonomie |
-| [research/02-topic-priorities.md](research/02-topic-priorities.md) | Themenpriorisierung |
-| [research/03-experts-creators.md](research/03-experts-creators.md) | Experten & Creator |
-| [research/04-sources-catalog.md](research/04-sources-catalog.md) | Quellenkatalog |
-| [research/05-design-systems.md](research/05-design-systems.md) | Design-Systeme |
-| [research/06-standards-evidence.md](research/06-standards-evidence.md) | Standards & Evidenz |
-| [research/07-research-plan.md](research/07-research-plan.md) | Research-Plan |
-| [sources/README.md](sources/README.md) | Phase-1 Source Index |
-| [analysis/README.md](analysis/README.md) | Phase-2 Analysis Index |
-| [principles/](principles/) | Principle candidates |
-| [capture/](capture/) | Docs/Video Capture Checklists |
-| [schemas/](schemas/) | Datenformate für spätere Phasen |
+| [research/](research/) | Phase-0 Taxonomy & Plan |
+| [sources/](sources/README.md) | Phase-1 Source Index |
+| [analysis/](analysis/README.md) | Phase-2 Analysis Index |
+| [principles/](principles/) | Phase-3 Principles |
+| [synthesis/](synthesis/README.md) | Phase-4 Synthesis |
+| [rules/](rules/README.md) | Phase-5 Canonical Rules |
+| [skills/](skills/README.md) | Phase-6 Universal Skills |
+| [skills/adapters/](skills/adapters/README.md) | Phase-7 Model Adapters |
+| [validation/](validation/README.md) | Phase-8 Validation Loop |
+| [schemas/](schemas/) | Datenformate |
+| [capture/](capture/) | Capture Checklists |

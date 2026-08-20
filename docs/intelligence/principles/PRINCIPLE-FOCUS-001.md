@@ -40,7 +40,7 @@ StatementClass:
 Standard
 
 Maturity:
-CORE-ready (Quality Gate pass expected in Phase 5 formalization)
+CORE (formalized as RULE-FOCUS-001, 2026-08-20)
 
 PriorityFloor:
 P0

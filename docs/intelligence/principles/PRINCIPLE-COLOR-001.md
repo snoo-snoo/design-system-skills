@@ -38,7 +38,7 @@ StatementClass:
 System Convention
 
 Maturity:
-CANDIDATE
+CORE (formalized as RULE-COLOR-001, 2026-08-20; Carbon + DS matrix)
 
 PriorityFloor:
 P0 for contrast-related roles; P4 for general token discipline

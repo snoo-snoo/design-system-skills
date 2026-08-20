@@ -42,7 +42,7 @@ StatementClass:
 Standard-adjacent Pattern Spec
 
 Maturity:
-CANDIDATE (CORE after Phase 5 gate + one DS modal a11y page cross-check)
+CORE (formalized as RULE-DIALOG-001, 2026-08-20; APG + WCAG consensus)
 
 PriorityFloor:
 P0
