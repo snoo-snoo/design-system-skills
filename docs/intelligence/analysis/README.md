@@ -8,6 +8,7 @@
 | VID-SAMPLE-004 | IG Reel — Revolut forms | analyzed | [VID-SAMPLE-004/](VID-SAMPLE-004/) |
 | VID-SAMPLE-005 | IG Reel — text alignment | analyzed | [VID-SAMPLE-005/](VID-SAMPLE-005/) |
 | VID-SAMPLE-006 | IG Reel — borders vs whitespace | analyzed | [VID-SAMPLE-006/](VID-SAMPLE-006/) |
+| VID-SAMPLE-007 | IG Reel — components without code | analyzed | [VID-SAMPLE-007/](VID-SAMPLE-007/) |
 | ST-001 | WCAG 2.2 | in_analysis | [ST-001/](ST-001/) |
 | ST-002 | WAI-ARIA APG | in_analysis | [ST-002/](ST-002/) |
 | ST-003 | NN/g Heuristics | in_analysis | [ST-003/](ST-003/) |
@@ -30,6 +31,7 @@
 | PRINCIPLE-RADIUS-SCALE-001 | CANDIDATE | Primer + Polaris |
 | PRINCIPLE-TEXT-ALIGN-001 | CANDIDATE | VID-005 |
 | PRINCIPLE-BORDER-RESTRAINT-001 | CANDIDATE | VID-006 |
+| PRINCIPLE-COMPONENT-API-PARITY-001 | CANDIDATE | VID-007 |
 | PRINCIPLE-DIALOG-001 | CANDIDATE | APG |
 | PRINCIPLE-TABS-001 | CANDIDATE | APG |
 | PRINCIPLE-CARD-SURFACE-001 | EXPERIMENTAL | VID-003 |
