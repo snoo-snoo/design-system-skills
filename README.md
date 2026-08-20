@@ -4,13 +4,13 @@ Evidenzbasiertes Wissensmodell für UI/UX-Regeln und modellunabhängige AI Desig
 
 ## Status
 
-**Phase:** Source Indexing abgeschlossen → als Nächstes Content Analysis (keine Skill-Generierung)
+**Phase:** Content Analysis (Phase 2) aktiv — Sample-Reel analysiert; noch keine Skill-Generierung
 
 Siehe:
 
-- [`docs/intelligence/sources/README.md`](docs/intelligence/sources/README.md) — Source Index (Phase 1)
+- [`docs/intelligence/analysis/README.md`](docs/intelligence/analysis/README.md) — Phase-2 Analysen
+- [`docs/intelligence/sources/README.md`](docs/intelligence/sources/README.md) — Source Index
 - [`docs/intelligence/research/07-research-plan.md`](docs/intelligence/research/07-research-plan.md) — Research-Plan
-- [`docs/intelligence/README.md`](docs/intelligence/README.md) — Zielarchitektur & Phasen
 
 ## Repo-Setup
 

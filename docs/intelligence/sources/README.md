@@ -44,6 +44,7 @@ Indexed research sources. Profiles live in this directory as `<ID>.md`.
 | [VID-001](VID-001.md) | Config / Figma systems talks | queued |
 | [VID-002](VID-002.md) | A11y / Clarity conference talks | queued |
 | [VID-003](VID-003.md) | Official DS channel videos | queued |
+| [VID-SAMPLE-001](VID-SAMPLE-001.md) | IG Reel — corner radius (Zander Whitehurst) | analyzed |
 
 ## Capture checklists
 
@@ -56,4 +57,4 @@ Indexed research sources. Profiles live in this directory as `<ID>.md`.
 - [x] Capture checklists published
 - [x] Contradiction log exists (`../synthesis/_contradictions.md`)
 - [x] Broader seed set has at least thin profiles + status
-- [ ] Phase 2 analysis folders started (next)
+- [x] Phase 2 analysis started (see `../analysis/`)

@@ -1,7 +1,7 @@
 # Research-Plan — Phase 0 → Phase 2
 
-**Status:** Phase 0 ✅ · Phase 1 ✅ (Source Indexing).  
-**Nächster Schritt:** Phase 2 Content Analysis (Wave A kickoff set) — noch **keine** Skill-Generierung.
+**Status:** Phase 0 ✅ · Phase 1 ✅ · Phase 2 **in progress** (sample Reel + Wave A docs started).  
+**Nächster Schritt:** Foundations deep-dives (Carbon/Polaris/Primer) + APG Dialog/Tabs principle cards — noch **keine** Skill-Generierung.
 
 ## Ziel dieser Phase
 
@@ -56,7 +56,7 @@ Für jede Seed-Quelle in `04-sources-catalog.md`:
 - Queued thin profiles: remaining DS/ST/RE/VID seeds
 - Contradiction log stub vorhanden
 
-### WP2 — Content Analysis (nächste Iteration — Wave A)
+### WP2 — Content Analysis (in progress)
 
 Pro Content Unit:
 
@@ -66,9 +66,16 @@ Pro Content Unit:
 4. Claim inventory (Recommendation / Assertion / Example / Caveat)
 5. Statement class: Opinion | Taste | Workflow | Practice | Principle | Standard | Constraint
 
-**Startreihenfolge:** ST-001 → ST-002 → ST-003 → DS-002 / DS-003 / DS-005 Foundations pages.
+**Startreihenfolge:** ST-001 → ST-002 → ST-003 → DS-002 / DS-003 / DS-005 Foundations pages (+ sample social video).
 
-**Deliverable:** `docs/intelligence/analysis/<source-id>/`
+**Deliverable:** [`docs/intelligence/analysis/`](../analysis/README.md)
+
+**Erledigt (2026-08-20):**
+
+- Sample Instagram Reel `VID-SAMPLE-001` fully pipeline-tested (partial visuals)
+- EXPERIMENTAL principle `PRINCIPLE-RADIUS-001`
+- ST-001 / ST-002 / ST-003 analysis kickoff maps
+- Contradiction watch CX-001 (nested radius vs fixed scales)
 
 ### WP3 — Principle Extraction
 
@@ -167,11 +174,11 @@ docs/intelligence/
 - [x] Index + Status für weiteres Seed-Set
 - [x] Keine Skill-Generierung
 
-## Nächste konkrete Aktion (Phase 2 Kickoff)
+## Nächste konkrete Aktion (Phase 2 continue)
 
-1. `docs/intelligence/analysis/ST-001/` — WCAG 2.2 Success Criteria → Taxonomy Map
-2. `analysis/ST-002/` — APG Dialog + Tabs + Naming
-3. `analysis/ST-003/` — Heuristics → Pattern/Feedback mapping
-4. Foundations pages: Carbon + Polaris + Primer (parallel claim inventory)
+1. Frame-capture for VID-SAMPLE-001 demo UI (optional upgrade from partial)
+2. Carbon/Polaris/Primer Foundations pages → claim inventories
+3. APG Dialog + Tabs → Principle cards
+4. Cross-check PRINCIPLE-RADIUS-001 against DS radius docs → keep EXPERIMENTAL or lift to CANDIDATE
 
 **Skills werden erst nach Wave-A Canonical Rules erzeugt.**
