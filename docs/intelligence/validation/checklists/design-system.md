@@ -13,6 +13,7 @@ Token and system-contract checks for product UI generation/review.
 | DS-07 | Control sizes use system size tokens when available | P0/P4 | RULE-TOUCH-001 |
 | DS-08 | Exceptions (optical, embeds, viz, brand moments) documented | P4 process | SPACE/COLOR exceptions |
 | DS-09 | No invented token names that pretend to exist in the system | P4 | Methods rule |
-| DS-10 | Design–code API parity issues flagged if components invented | P4 note | CANDIDATE PRINCIPLE-COMPONENT-API-PARITY-001 |
+| DS-10 | Radii map to semantic shape/radius scale when available | P4 | RULE-RADIUS-SCALE-001 |
+| DS-11 | Design–code API parity issues flagged if components invented | P4 note | CANDIDATE PRINCIPLE-COMPONENT-API-PARITY-001 |
 
 If the project has no token set yet: mark DS-01…DS-07 `needs-info` and recommend defining a scale before CORE-style generation.
