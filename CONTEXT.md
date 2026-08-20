@@ -22,9 +22,11 @@
 ## Decisions so far
 
 - Phase 0 vor Skill-Generierung (Research & Taxonomy first).
+- Phase 1 Source Indexing completed (profiles in `docs/intelligence/sources/`).
 - Social/Reels sind indexierbar, aber allein keine CORE-Evidence.
 - Konfliktlösung folgt P0–P7 (Accessibility vor Ästhetik).
 - Token-Werte werden nicht erfunden.
+- Phase 2 starts with ST-001 → ST-002 → ST-003, then Carbon/Polaris/Primer foundations.
 
 ## ADR pointer
 

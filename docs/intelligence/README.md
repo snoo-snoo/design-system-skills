@@ -79,9 +79,9 @@ P7 – Aesthetic preferences
 
 | Phase | Status | Output |
 | --- | --- | --- |
-| 0 Research & Taxonomy | **Aktiv** | Themen, Quellen, Plan |
-| 1 Source Indexing | Geplant | Source Profiles |
-| 2 Content Analysis | Geplant | Transcripts, Visual Notes |
+| 0 Research & Taxonomy | ✅ | Themen, Quellen, Plan |
+| 1 Source Indexing | ✅ | Source Profiles |
+| 2 Content Analysis | **Als Nächstes** | Transcripts, Visual Notes |
 | 3 Principle Extraction | Geplant | Principles + Confidence |
 | 4 Cross-Source Synthesis | Geplant | Consensus / Contradictions |
 | 5 Canonical Rules | Geplant | RULE-xxx Library |
@@ -100,4 +100,6 @@ P7 – Aesthetic preferences
 | [research/05-design-systems.md](research/05-design-systems.md) | Design-Systeme |
 | [research/06-standards-evidence.md](research/06-standards-evidence.md) | Standards & Evidenz |
 | [research/07-research-plan.md](research/07-research-plan.md) | Research-Plan |
+| [sources/README.md](sources/README.md) | Phase-1 Source Index |
+| [capture/](capture/) | Docs/Video Capture Checklists |
 | [schemas/](schemas/) | Datenformate für spätere Phasen |

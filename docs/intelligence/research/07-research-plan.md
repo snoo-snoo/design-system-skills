@@ -1,7 +1,7 @@
-# Research-Plan — Phase 0 → Phase 1
+# Research-Plan — Phase 0 → Phase 2
 
-**Status:** Phase 0 abgeschlossen (Taxonomie + Seed Sources).  
-**Nächster Schritt:** Phase 1 Source Indexing — noch **keine** Skill-Generierung.
+**Status:** Phase 0 ✅ · Phase 1 ✅ (Source Indexing).  
+**Nächster Schritt:** Phase 2 Content Analysis (Wave A kickoff set) — noch **keine** Skill-Generierung.
 
 ## Ziel dieser Phase
 
@@ -35,7 +35,7 @@ Out of Scope (vorerst):
 - [x] Standards & Evidence Mapping
 - [x] Schemas für Source / Principle / Rule / Skill
 
-### WP1 — Source Indexing (nächste Iteration)
+### WP1 — Source Indexing ✅
 
 Für jede Seed-Quelle in `04-sources-catalog.md`:
 
@@ -43,13 +43,20 @@ Für jede Seed-Quelle in `04-sources-catalog.md`:
 2. Expertise / Credibility / Relevance bewerten
 3. Primäre Themen-Tags (Taxonomie) setzen
 4. Capture-Methode festlegen (Docs scrape / Video transcript / Manual notes)
-5. Status: `queued | in_progress | analyzed | blocked`
+5. Status: `queued | indexed | in_analysis | analyzed | blocked`
 
 **Reihenfolge:** ST-* und DS-* vor VID-* und Social.
 
-**Deliverable:** `docs/intelligence/sources/` mit einer Datei pro Source ID.
+**Deliverable:** [`docs/intelligence/sources/`](../sources/README.md) — Kickoff-Set indexed; weitere Seeds queued/indexed.
 
-### WP2 — Content Analysis (nach WP1 für Wave A)
+**Erledigt (2026-08-20):**
+
+- Capture checklists: docs + video
+- Indexed: ST-001–003, DS-001/002/003/004/005/008, RE-001, RE-004
+- Queued thin profiles: remaining DS/ST/RE/VID seeds
+- Contradiction log stub vorhanden
+
+### WP2 — Content Analysis (nächste Iteration — Wave A)
 
 Pro Content Unit:
 
@@ -58,6 +65,8 @@ Pro Content Unit:
 3. Speech vs Shown Konflikte markieren
 4. Claim inventory (Recommendation / Assertion / Example / Caveat)
 5. Statement class: Opinion | Taste | Workflow | Practice | Principle | Standard | Constraint
+
+**Startreihenfolge:** ST-001 → ST-002 → ST-003 → DS-002 / DS-003 / DS-005 Foundations pages.
 
 **Deliverable:** `docs/intelligence/analysis/<source-id>/`
 
@@ -150,10 +159,19 @@ docs/intelligence/
 - [x] Empirische Evidenzquellen benannt
 - [x] Research-Plan mit Work Packages & Sprint-Schnitt
 
-## Nächste konkrete Aktion (Phase 1 Kickoff)
+## Definition of Done — Phase 1
 
-1. Source Profiles für `ST-001`, `ST-002`, `ST-003`, `DS-002`, `DS-003`, `DS-005` anlegen
-2. Capture-Checklists für Docs vs Video festziehen
-3. Erste Contradiction-Log-Datei vorbereiten (`synthesis/_contradictions.md` stub)
+- [x] Source Profiles für `ST-001`, `ST-002`, `ST-003`, `DS-002`, `DS-003`, `DS-005`
+- [x] Capture-Checklists Docs vs Video
+- [x] Contradiction-Log Stub
+- [x] Index + Status für weiteres Seed-Set
+- [x] Keine Skill-Generierung
+
+## Nächste konkrete Aktion (Phase 2 Kickoff)
+
+1. `docs/intelligence/analysis/ST-001/` — WCAG 2.2 Success Criteria → Taxonomy Map
+2. `analysis/ST-002/` — APG Dialog + Tabs + Naming
+3. `analysis/ST-003/` — Heuristics → Pattern/Feedback mapping
+4. Foundations pages: Carbon + Polaris + Primer (parallel claim inventory)
 
 **Skills werden erst nach Wave-A Canonical Rules erzeugt.**

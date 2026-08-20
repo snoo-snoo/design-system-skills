@@ -14,4 +14,4 @@ Single-context layout: one `CONTEXT.md` at the repo root plus `docs/adr/`. See `
 
 ### Design System Intelligence
 
-Research & taxonomy live under `docs/intelligence/`. Active phase is Research (no skill generation yet); start at `docs/intelligence/research/07-research-plan.md`.
+Research lives under `docs/intelligence/`. Phase 1 (source indexing) is done; next is Phase 2 content analysis. Start at `docs/intelligence/sources/README.md` and `docs/intelligence/research/07-research-plan.md`. No skill generation yet.
