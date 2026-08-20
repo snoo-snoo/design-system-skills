@@ -177,11 +177,11 @@ docs/intelligence/
 - [x] Index + Status für weiteres Seed-Set
 - [x] Keine Skill-Generierung
 
-## Nächste konkrete Aktion (Phase 2 continue)
+## Nächste konkrete Aktion (Phase 2 continue / Phase 5 prep)
 
-1. Frame-capture for VID-SAMPLE-001 demo UI (optional upgrade from partial)
-2. Carbon/Polaris/Primer Foundations pages → claim inventories
-3. APG Dialog + Tabs → Principle cards
-4. Cross-check PRINCIPLE-RADIUS-001 against DS radius docs → keep EXPERIMENTAL or lift to CANDIDATE
+1. Material or Atlassian spacing/color page → promote SPACE-001 / COLOR-001 toward CORE
+2. Carbon/Polaris modal a11y docs → harden DIALOG-001
+3. Optionally formalize RULE-001 from PRINCIPLE-FOCUS-001 (first Canonical Rule)
+4. Still no Skill generation until Wave-A Canonical Rules set exists
 
 **Skills werden erst nach Wave-A Canonical Rules erzeugt.**
