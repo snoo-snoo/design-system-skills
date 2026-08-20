@@ -37,7 +37,7 @@ StatementClass:
 Practice
 
 Maturity:
-CANDIDATE
+CORE (formalized as RULE-TEXT-ALIGN-001, 2026-08-20 — prod promotion)
 
 PriorityFloor:
 P2 information hierarchy / P5 craft

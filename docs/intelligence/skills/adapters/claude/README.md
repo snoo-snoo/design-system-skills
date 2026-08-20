@@ -49,3 +49,8 @@ Always run:
 | restrain-decorative-color | [restrain-decorative-color](restrain-decorative-color.md) |
 | provide-form-feedback | [provide-form-feedback](provide-form-feedback.md) |
 | rank-actions | [rank-actions](rank-actions.md) |
+| nest-corner-radii | [nest-corner-radii](nest-corner-radii.md) |
+| align-text-start | [align-text-start](align-text-start.md) |
+| restrain-decorative-borders | [restrain-decorative-borders](restrain-decorative-borders.md) |
+| align-design-code-api | [align-design-code-api](align-design-code-api.md) |
+| use-card-chrome-sparingly | [use-card-chrome-sparingly](use-card-chrome-sparingly.md) |

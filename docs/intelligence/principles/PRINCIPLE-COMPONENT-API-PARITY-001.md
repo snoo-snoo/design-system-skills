@@ -43,7 +43,7 @@ StatementClass:
 Practice / Workflow
 
 Maturity:
-CANDIDATE
+CORE (formalized as RULE-COMPONENT-API-001, 2026-08-20 — prod promotion)
 
 PriorityFloor:
 P4 design-system consistency
