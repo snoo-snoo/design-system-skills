@@ -28,7 +28,9 @@ Evidence:
   - DS-002 Carbon Spacing overview (scale + designing-with-space)
   - DS-005 Primer size/stack tokens
   - DS-003 Card padding token usage (supporting)
-  - Wave-A synthesis consensus
+  - DS-004 Atlassian Spacing (space tokens; proximity/hierarchy)
+  - DS-001 Material spacing scale (supporting)
+  - Wave-A/B synthesis consensus
 Confidence: High
 Maturity: CORE
 Related Rules: RULE-COLOR-001
@@ -36,6 +38,7 @@ PriorityFloor: P4 (system consistency); supports P2 hierarchy
 LastReviewed: 2026-08-20
 Changelog:
   - 2026-08-20: Promoted CORE from PRINCIPLE-SPACE-001 (multi-DS consensus)
+  - 2026-08-20: Wave B evidence — DS-004 Atlassian spacing tokens + proximity/hierarchy; DS-001 Material spacing scale
 ```
 
 ## Attribution

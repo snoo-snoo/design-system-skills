@@ -45,3 +45,7 @@ Always run:
 | build-accessible-tabs | [build-accessible-tabs.md](build-accessible-tabs.md) |
 | apply-spacing-scale | [apply-spacing-scale.md](apply-spacing-scale.md) |
 | apply-semantic-color | [apply-semantic-color.md](apply-semantic-color.md) |
+| apply-radius-scale | [apply-radius-scale](apply-radius-scale.md) |
+| restrain-decorative-color | [restrain-decorative-color](restrain-decorative-color.md) |
+| provide-form-feedback | [provide-form-feedback](provide-form-feedback.md) |
+| rank-actions | [rank-actions](rank-actions.md) |

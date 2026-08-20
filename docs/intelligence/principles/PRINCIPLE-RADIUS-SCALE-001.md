@@ -35,7 +35,7 @@ StatementClass:
 System Convention
 
 Maturity:
-CANDIDATE
+CORE (formalized as RULE-RADIUS-SCALE-001, Wave B 2026-08-20)
 
 PriorityFloor:
 P4

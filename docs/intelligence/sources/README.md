@@ -27,8 +27,8 @@ Indexed research sources. Profiles live in this directory as `<ID>.md`.
 
 | ID | Name | Status |
 | --- | --- | --- |
-| [DS-001](DS-001.md) | Material Design 3 | indexed |
-| [DS-004](DS-004.md) | Atlassian Design System | indexed |
+| [DS-001](DS-001.md) | Material Design 3 | analyzed |
+| [DS-004](DS-004.md) | Atlassian Design System | analyzed |
 | [DS-006](DS-006.md) | Adobe Spectrum | queued |
 | [DS-007](DS-007.md) | Microsoft Fluent 2 | queued |
 | [DS-008](DS-008.md) | Apple HIG | indexed |

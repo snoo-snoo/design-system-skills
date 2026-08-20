@@ -14,4 +14,4 @@ Single-context layout: one `CONTEXT.md` at the repo root plus `docs/adr/`. See `
 
 ### Design System Intelligence
 
-Research lives under `docs/intelligence/`. Wave A Phases 0–8 are complete: CORE rules, universal skills, model adapters (Claude/Grok/ChatGPT), validation loop. Start at `docs/intelligence/README.md`. Prefer CORE rules/skills over CANDIDATE principles. After skill/adapter runs, use `docs/intelligence/validation/`.
+Research lives under `docs/intelligence/`. Wave A (Phases 0–8) and Wave B are complete: 11 CORE rules, 11 universal skills, model adapters, validation (`wave-a-core` + `wave-b-core`). Start at `docs/intelligence/README.md`. Prefer CORE over CANDIDATE.
