@@ -47,21 +47,32 @@ SpeechVsVisual:
 partial
 
 Maturity:
-EXPERIMENTAL
+CANDIDATE
 
 PriorityFloor:
 P5 (visual hierarchy / craft) — must not override P0 accessibility
 ```
+
+## Cross-source check (2026-08-20)
+
+| Source | Nested formula? | Radius approach |
+| --- | --- | --- |
+| VID-SAMPLE-001 | Yes — teaches formula | Educator practice |
+| DS-005 Primer | No | Fixed semantic tokens (sm/md/lg/full) |
+| DS-003 Polaris | No | Shape tokens required; Card defaults fixed |
+| DS-002 Carbon | Not found on captured pages | Spacing/color documented; radius page missing |
+
+**Resolution (CX-001):** Complementary, not contradictory. Systems standardize **tokenized radius scales**; the nesting formula is a **composition rule** for choosing nested token values (or computed radii that then snap to tokens). Does not alone define the scale.
 
 ## Quality Gate (pre-CORE)
 
 | Check | Result |
 | --- | --- |
 | Clear & reusable | Yes |
-| Context + exceptions | Yes (draft) |
-| Evidence sufficient for CORE | **No** — educator cluster, not multi-system normative docs yet |
-| Objective enough for AI | Yes (formula) |
+| Context + exceptions | Yes |
+| Evidence for CORE | **Not yet** — strong Practice/CANDIDATE; needs broader independent system doc or synthesis pass |
+| Objective for AI | Yes |
 | Accessibility conflict | None direct |
-| Validatable | Yes — compare computed radii vs padding |
+| Validatable | Yes |
 
-**Decision:** Keep EXPERIMENTAL. Next: check whether Carbon/Polaris/Material document nested radius guidance; if ≥1 system + this practice align → CANDIDATE.
+**Decision:** Lift EXPERIMENTAL → **CANDIDATE**. Still not CORE.

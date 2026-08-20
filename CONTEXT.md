@@ -26,8 +26,8 @@
 - Social/Reels sind indexierbar, aber allein keine CORE-Evidence.
 - Konfliktlösung folgt P0–P7 (Accessibility vor Ästhetik).
 - Token-Werte werden nicht erfunden.
-- Phase 2 started: VID-SAMPLE-001 Reel pipeline + ST-001/002/003 maps; first principle PRINCIPLE-RADIUS-001 (EXPERIMENTAL).
-- Phase 2 continue: DS foundations + APG Dialog/Tabs principle cards.
+- Phase 2 continued: Carbon/Polaris/Primer foundations + APG Dialog/Tabs principles; RADIUS-001 → CANDIDATE.
+- Next candidates for first Canonical Rule: PRINCIPLE-FOCUS-001.
 
 ## ADR pointer
 

@@ -73,9 +73,12 @@ Pro Content Unit:
 **Erledigt (2026-08-20):**
 
 - Sample Instagram Reel `VID-SAMPLE-001` fully pipeline-tested (partial visuals)
-- EXPERIMENTAL principle `PRINCIPLE-RADIUS-001`
+- Principle `PRINCIPLE-RADIUS-001` → CANDIDATE after DS cross-check
 - ST-001 / ST-002 / ST-003 analysis kickoff maps
-- Contradiction watch CX-001 (nested radius vs fixed scales)
+- DS-002 / DS-003 / DS-005 Foundations claim inventories
+- APG-derived PRINCIPLE-DIALOG-001 + PRINCIPLE-TABS-001
+- SPACE / COLOR / FOCUS / RADIUS-SCALE principle candidates
+- CX-001 resolved as complementary
 
 ### WP3 — Principle Extraction
 
