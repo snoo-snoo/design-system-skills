@@ -39,7 +39,7 @@ StatementClass:
 Practice
 
 Maturity:
-EXPERIMENTAL
+CORE (formalized as RULE-CARD-SURFACE-001, 2026-08-20 — prod promotion; CX-004 P0 override)
 
 PriorityFloor:
 P5 — subordinated to P0 contrast/readability

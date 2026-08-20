@@ -6,6 +6,7 @@ Cross-source synthesis aggregates Principles into consensus, contradictions, con
 | --- | --- | --- |
 | Wave A | ✅ complete (2026-08-20) | [wave-a.md](wave-a.md) |
 | Wave B | ✅ complete (2026-08-20) | [wave-b.md](wave-b.md) |
+| Candidate → prod | ✅ complete (2026-08-20) | [candidate-prod-promotion.md](candidate-prod-promotion.md) |
 | Contradictions | living log | [_contradictions.md](_contradictions.md) |
 
 ## Rules of synthesis

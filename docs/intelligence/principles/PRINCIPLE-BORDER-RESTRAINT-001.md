@@ -43,7 +43,7 @@ StatementClass:
 Practice
 
 Maturity:
-CANDIDATE
+CORE (formalized as RULE-BORDER-RESTRAINT-001, 2026-08-20 — prod promotion)
 
 PriorityFloor:
 P5 craft / P2 hierarchy — never remove borders required for P0 focus/contrast

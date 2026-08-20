@@ -47,13 +47,7 @@ SpeechVsVisual:
 partial
 
 Maturity:
-CANDIDATE
-
-PriorityFloor:
-P5 (visual hierarchy / craft) — must not override P0 accessibility
-```
-
-## Cross-source check (2026-08-20)
+CORE (formalized as RULE-NESTED-RADIUS-001, 2026-08-20 — prod promotion)
 
 | Source | Nested formula? | Radius approach |
 | --- | --- | --- |
@@ -75,4 +69,4 @@ P5 (visual hierarchy / craft) — must not override P0 accessibility
 | Accessibility conflict | None direct |
 | Validatable | Yes |
 
-**Decision:** Lift EXPERIMENTAL → **CANDIDATE**. Still not CORE.
+**Decision:** Promoted to **CORE** (RULE-NESTED-RADIUS-001) as composition guidance on top of radius scale.

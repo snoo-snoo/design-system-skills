@@ -2,31 +2,21 @@
 
 ## Product
 
-**Design System Intelligence** — Pipeline und Wissensmodell, das aus öffentlichen Design-Quellen evidenzbasierte UI/UX-Regeln ableitet und daraus modellunabhängige AI Design Skills erzeugt.
+**Design System Intelligence** — evidenzbasierte UI/UX-Regeln → Universal Skills → Model Adapters → Validation.
 
-## Glossary
+## Status
 
-| Term | Meaning |
-| --- | --- |
-| **Research Material** | Eine Quelle vor Validierung; keine automatische Wahrheit |
-| **Principle** | Strukturierte Empfehlung mit Context/Exceptions/Evidence |
-| **Canonical Rule** | Normalisierte Regel nach Quality Gate |
-| **CORE** | Regel mit ausreichender Evidenz für verbindliche Skills |
-| **Universal Skill** | Modellunabhängiger AI Skill; Source of Truth |
-| **Model Adapter** | Plattformspezifische Hülle um einen Universal Skill |
-| **Validation Loop** | Self-review + checklists + report after each run |
-| **Wave A–D** | Themenpriorisierung für Research Sprints |
+**Production set complete (2026-08-20):** **16 CORE rules · 16 Universal Skills · 3 adapter packs.**  
+No remaining CANDIDATE principles. Former EXPERIMENTAL card-surface promoted with P0 caveats.
 
-## Decisions so far
+## Decisions
 
-- Wave A Phases 0–8 complete; Wave B pass complete (2026-08-20).
-- **11 CORE rules** / **11 Universal Skills** / adapters for Claude·Grok·ChatGPT.
-- Wave B promotions: radius scale, color restraint, form feedback, action hierarchy.
-- Still held: nested radius, text-align, border restraint, API parity, card surface.
-- CX-006: prefer validation over silent disabled primary — not a blanket ban.
+- Wave A + Wave B + candidate→prod promotion shipped.
+- Craft rules stay P2–P5; P0 accessibility always wins (CX-004 scoped).
+- Adapters never fork rules; validate with wave-a-core / wave-b-core / craft-core.
 - Token values are never invented.
-- Next: deepen Wave B (buttons across more DS, navigation) or Wave C product surfaces.
+- Open watches: CX-002 (disabled contrast), CX-006 (disabled buttons guidance).
 
-## ADR pointer
+## Entry
 
-`docs/intelligence/research/07-research-plan.md`
+`docs/intelligence/README.md` · `docs/intelligence/rules/README.md` · `docs/intelligence/skills/README.md`

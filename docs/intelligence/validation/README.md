@@ -15,6 +15,7 @@ Validation Loop for outputs from Universal Skills and Model Adapters.
 | --- | --- | --- |
 | wave-a-core | [checklists/wave-a-core.md](checklists/wave-a-core.md) | Any Wave A CORE skill/adapter run (default) |
 | wave-b-core | [checklists/wave-b-core.md](checklists/wave-b-core.md) | Wave B skills (actions, form feedback, radius, color restraint) |
+| craft-core | [checklists/craft-core.md](checklists/craft-core.md) | Former CANDIDATE craft skills (nested radius, align, borders, cards, API) |
 | accessibility | [checklists/accessibility.md](checklists/accessibility.md) | Focus, targets, labels, dialogs, tabs, contrast |
 | consistency | [checklists/consistency.md](checklists/consistency.md) | Interaction & pattern consistency |
 | ux | [checklists/ux.md](checklists/ux.md) | Clarity, feedback, error prevention |
