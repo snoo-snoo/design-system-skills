@@ -49,6 +49,7 @@ Indexed research sources. Profiles live in this directory as `<ID>.md`.
 | [VID-SAMPLE-003](VID-SAMPLE-003.md) | IG Reel — card backgrounds | analyzed |
 | [VID-SAMPLE-004](VID-SAMPLE-004.md) | IG Reel — Revolut forms | analyzed |
 | [VID-SAMPLE-005](VID-SAMPLE-005.md) | IG Reel — text alignment | analyzed |
+| [VID-SAMPLE-006](VID-SAMPLE-006.md) | IG Reel — borders vs whitespace | analyzed |
 
 ## Capture checklists
 
