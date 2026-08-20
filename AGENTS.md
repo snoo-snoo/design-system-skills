@@ -11,3 +11,7 @@ Default triage vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `rea
 ### Domain docs
 
 Single-context layout: one `CONTEXT.md` at the repo root plus `docs/adr/`. See `docs/agents/domain.md`.
+
+### Design System Intelligence
+
+Research & taxonomy live under `docs/intelligence/`. Active phase is Research (no skill generation yet); start at `docs/intelligence/research/07-research-plan.md`.
