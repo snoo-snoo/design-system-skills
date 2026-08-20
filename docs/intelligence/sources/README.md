@@ -45,6 +45,10 @@ Indexed research sources. Profiles live in this directory as `<ID>.md`.
 | [VID-002](VID-002.md) | A11y / Clarity conference talks | queued |
 | [VID-003](VID-003.md) | Official DS channel videos | queued |
 | [VID-SAMPLE-001](VID-SAMPLE-001.md) | IG Reel — corner radius (Zander Whitehurst) | analyzed |
+| [VID-SAMPLE-002](VID-SAMPLE-002.md) | IG Reel — restrained color | analyzed |
+| [VID-SAMPLE-003](VID-SAMPLE-003.md) | IG Reel — card backgrounds | analyzed |
+| [VID-SAMPLE-004](VID-SAMPLE-004.md) | IG Reel — Revolut forms | analyzed |
+| [VID-SAMPLE-005](VID-SAMPLE-005.md) | IG Reel — text alignment | analyzed |
 
 ## Capture checklists
 

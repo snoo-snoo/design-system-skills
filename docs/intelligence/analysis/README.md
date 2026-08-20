@@ -2,7 +2,11 @@
 
 | ID | Type | Status | Entry |
 | --- | --- | --- | --- |
-| VID-SAMPLE-001 | Instagram Reel (sample) | analyzed | [VID-SAMPLE-001/](VID-SAMPLE-001/) |
+| VID-SAMPLE-001 | IG Reel — corner radius | analyzed | [VID-SAMPLE-001/](VID-SAMPLE-001/) |
+| VID-SAMPLE-002 | IG Reel — restrained color | analyzed | [VID-SAMPLE-002/](VID-SAMPLE-002/) |
+| VID-SAMPLE-003 | IG Reel — card backgrounds | analyzed | [VID-SAMPLE-003/](VID-SAMPLE-003/) |
+| VID-SAMPLE-004 | IG Reel — Revolut forms | analyzed | [VID-SAMPLE-004/](VID-SAMPLE-004/) |
+| VID-SAMPLE-005 | IG Reel — text alignment | analyzed | [VID-SAMPLE-005/](VID-SAMPLE-005/) |
 | ST-001 | WCAG 2.2 | in_analysis | [ST-001/](ST-001/) |
 | ST-002 | WAI-ARIA APG | in_analysis | [ST-002/](ST-002/) |
 | ST-003 | NN/g Heuristics | in_analysis | [ST-003/](ST-003/) |
@@ -14,16 +18,22 @@
 
 | ID | Maturity | From |
 | --- | --- | --- |
-| [PRINCIPLE-RADIUS-001](../principles/PRINCIPLE-RADIUS-001.md) | CANDIDATE | VID-SAMPLE-001 + DS cross-check |
-| [PRINCIPLE-RADIUS-SCALE-001](../principles/PRINCIPLE-RADIUS-SCALE-001.md) | CANDIDATE | Primer + Polaris |
-| [PRINCIPLE-SPACE-001](../principles/PRINCIPLE-SPACE-001.md) | CANDIDATE | Carbon + Primer |
-| [PRINCIPLE-COLOR-001](../principles/PRINCIPLE-COLOR-001.md) | CANDIDATE | Carbon |
-| [PRINCIPLE-FOCUS-001](../principles/PRINCIPLE-FOCUS-001.md) | CORE-ready | WCAG + Carbon + Primer + APG |
-| [PRINCIPLE-DIALOG-001](../principles/PRINCIPLE-DIALOG-001.md) | CANDIDATE | APG Dialog |
-| [PRINCIPLE-TABS-001](../principles/PRINCIPLE-TABS-001.md) | CANDIDATE | APG Tabs |
+| PRINCIPLE-FOCUS-001 | CORE-ready | WCAG + DS + APG |
+| PRINCIPLE-TOUCH-TARGET-001 | CORE-ready | WCAG + VID-004 |
+| PRINCIPLE-FORM-LABEL-001 | CANDIDATE | Conflict resolution on VID-004 |
+| PRINCIPLE-FORM-FEEDBACK-001 | CANDIDATE | VID-004 |
+| PRINCIPLE-COLOR-001 | CANDIDATE | Carbon |
+| PRINCIPLE-COLOR-RESTRAINT-001 | CANDIDATE | VID-002 + Carbon |
+| PRINCIPLE-SPACE-001 | CANDIDATE | Carbon + Primer |
+| PRINCIPLE-RADIUS-001 | CANDIDATE | VID-001 sample |
+| PRINCIPLE-RADIUS-SCALE-001 | CANDIDATE | Primer + Polaris |
+| PRINCIPLE-TEXT-ALIGN-001 | CANDIDATE | VID-005 |
+| PRINCIPLE-DIALOG-001 | CANDIDATE | APG |
+| PRINCIPLE-TABS-001 | CANDIDATE | APG |
+| PRINCIPLE-CARD-SURFACE-001 | EXPERIMENTAL | VID-003 |
 
 ## Next
 
-1. Material / Atlassian foundations for SPACE/COLOR confirmation → CORE promotions  
-2. Carbon/Polaris Modal a11y pages → lock DIALOG-001  
-3. Optional: formal Phase 5 RULE-xxx files for FOCUS-001 first
+1. Formalize RULE-001 (Focus) + RULE-002 (Touch Target)  
+2. Material/Atlassian confirm SPACE/COLOR  
+3. Skills only after Canonical Rules batch
