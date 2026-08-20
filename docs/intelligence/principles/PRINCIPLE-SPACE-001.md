@@ -40,8 +40,7 @@ StatementClass:
 System Convention
 
 Maturity:
-CANDIDATE → promote to CORE after one more independent system page quote
-(e.g. Material spacing) or Wave-A synthesis pass
+CORE (formalized as RULE-SPACE-001, 2026-08-20; Carbon + Primer consensus)
 
 PriorityFloor:
 P4

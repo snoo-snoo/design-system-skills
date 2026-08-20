@@ -37,7 +37,7 @@ StatementClass:
 Standard (+ Practice)
 
 Maturity:
-CORE-ready
+CORE (formalized as RULE-TOUCH-001, 2026-08-20)
 
 PriorityFloor:
 P0

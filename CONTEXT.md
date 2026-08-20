@@ -21,13 +21,12 @@
 
 ## Decisions so far
 
-- Phase 0 vor Skill-Generierung (Research & Taxonomy first).
-- Phase 1 Source Indexing completed (profiles in `docs/intelligence/sources/`).
-- Social/Reels sind indexierbar, aber allein keine CORE-Evidence.
+- Phase 0–6 Wave A completed (2026-08-20): Research → Analysis → Principles → Synthesis → 7 CORE Rules → 7 Universal Skills.
+- Social/Reels allein keine CORE-Evidence; Craft-Practices bleiben CANDIDATE.
 - Konfliktlösung folgt P0–P7 (Accessibility vor Ästhetik).
+- CX-003: Persistent labels = default (RULE-FORM-LABEL-001); floating labels non-default.
 - Token-Werte werden nicht erfunden.
-- Phase 2 batch: VID-SAMPLE-002…005 analyzed; form floating-label conflict documented (CX-003); touch-target + persistent-label principles added.
-- Next: first Canonical Rules from FOCUS-001 and TOUCH-TARGET-001.
+- Next: Phase 7 Model Adapters; Wave-B sources (Material/Atlassian, forms DS pages).
 
 ## ADR pointer
 

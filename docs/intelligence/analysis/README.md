@@ -16,28 +16,28 @@
 | DS-003 | Polaris Shape / Card | analyzed (thin) | [DS-003/](DS-003/) |
 | DS-005 | Primer Size / Radius | analyzed | [DS-005/](DS-005/) |
 
-## Principle candidates
+## Principle → Rule promotions (Wave A)
 
-| ID | Maturity | From |
+| Principle | Maturity | Rule / Skill |
 | --- | --- | --- |
-| PRINCIPLE-FOCUS-001 | CORE-ready | WCAG + DS + APG |
-| PRINCIPLE-TOUCH-TARGET-001 | CORE-ready | WCAG + VID-004 |
-| PRINCIPLE-FORM-LABEL-001 | CANDIDATE | Conflict resolution on VID-004 |
-| PRINCIPLE-FORM-FEEDBACK-001 | CANDIDATE | VID-004 |
-| PRINCIPLE-COLOR-001 | CANDIDATE | Carbon |
-| PRINCIPLE-COLOR-RESTRAINT-001 | CANDIDATE | VID-002 + Carbon |
-| PRINCIPLE-SPACE-001 | CANDIDATE | Carbon + Primer |
-| PRINCIPLE-RADIUS-001 | CANDIDATE | VID-001 sample |
-| PRINCIPLE-RADIUS-SCALE-001 | CANDIDATE | Primer + Polaris |
-| PRINCIPLE-TEXT-ALIGN-001 | CANDIDATE | VID-005 |
-| PRINCIPLE-BORDER-RESTRAINT-001 | CANDIDATE | VID-006 |
-| PRINCIPLE-COMPONENT-API-PARITY-001 | CANDIDATE | VID-007 |
-| PRINCIPLE-DIALOG-001 | CANDIDATE | APG |
-| PRINCIPLE-TABS-001 | CANDIDATE | APG |
-| PRINCIPLE-CARD-SURFACE-001 | EXPERIMENTAL | VID-003 |
+| PRINCIPLE-FOCUS-001 | CORE | RULE-FOCUS-001 → ensure-visible-focus |
+| PRINCIPLE-TOUCH-TARGET-001 | CORE | RULE-TOUCH-001 → size-touch-targets |
+| PRINCIPLE-FORM-LABEL-001 | CORE | RULE-FORM-LABEL-001 → label-form-fields |
+| PRINCIPLE-DIALOG-001 | CORE | RULE-DIALOG-001 → build-accessible-modal |
+| PRINCIPLE-TABS-001 | CORE | RULE-TABS-001 → build-accessible-tabs |
+| PRINCIPLE-SPACE-001 | CORE | RULE-SPACE-001 → apply-spacing-scale |
+| PRINCIPLE-COLOR-001 | CORE | RULE-COLOR-001 → apply-semantic-color |
+| PRINCIPLE-COLOR-RESTRAINT-001 | CANDIDATE | — |
+| PRINCIPLE-RADIUS-001 | CANDIDATE | — |
+| PRINCIPLE-RADIUS-SCALE-001 | CANDIDATE | — |
+| PRINCIPLE-TEXT-ALIGN-001 | CANDIDATE | — |
+| PRINCIPLE-BORDER-RESTRAINT-001 | CANDIDATE | — |
+| PRINCIPLE-FORM-FEEDBACK-001 | CANDIDATE | — |
+| PRINCIPLE-COMPONENT-API-PARITY-001 | CANDIDATE | — |
+| PRINCIPLE-CARD-SURFACE-001 | EXPERIMENTAL | — |
 
-## Next
+## Downstream
 
-1. Formalize RULE-001 (Focus) + RULE-002 (Touch Target)  
-2. Material/Atlassian confirm SPACE/COLOR  
-3. Skills only after Canonical Rules batch
+- Synthesis: [../synthesis/wave-a.md](../synthesis/wave-a.md)
+- Rules: [../rules/README.md](../rules/README.md)
+- Skills: [../skills/README.md](../skills/README.md)

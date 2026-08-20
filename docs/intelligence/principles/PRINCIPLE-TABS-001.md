@@ -42,7 +42,7 @@ StatementClass:
 Standard-adjacent Pattern Spec
 
 Maturity:
-CANDIDATE
+CORE (formalized as RULE-TABS-001, 2026-08-20)
 
 PriorityFloor:
 P0 for semantics/keyboard; P3 for visual selection styling
