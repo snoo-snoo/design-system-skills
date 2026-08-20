@@ -1,6 +1,6 @@
-# Universal Skills Index — Phase 6
+# Skills Index — Phases 6–7
 
-Model-independent AI Design Skills. **Source of Truth.** Generated only from CORE Canonical Rules.
+## Universal Skills (Phase 6) — Source of Truth
 
 | Skill | Task | Source Rules |
 | --- | --- | --- |
@@ -12,10 +12,22 @@ Model-independent AI Design Skills. **Source of Truth.** Generated only from COR
 | [apply-spacing-scale](universal/apply-spacing-scale.md) | Tokenized spacing | RULE-SPACE-001 |
 | [apply-semantic-color](universal/apply-semantic-color.md) | Semantic color tokens | RULE-COLOR-001 |
 
+## Model Adapters (Phase 7)
+
+Thin wrappers — **do not fork** Universal Skills.
+
+| Model | Entry |
+| --- | --- |
+| Claude | [adapters/claude/](adapters/claude/) |
+| Grok | [adapters/grok/](adapters/grok/) |
+| ChatGPT | [adapters/chatgpt/](adapters/chatgpt/) |
+
+Contract: [adapters/contract.md](adapters/contract.md) · Invoke: [adapters/invoke-template.md](adapters/invoke-template.md)
+
+## Validation (Phase 8)
+
+After every skill/adapter run: [../validation/README.md](../validation/README.md)
+
 ## Atomicity
 
-One skill = one task. Do not merge into “make the whole UI good.”
-
-## Adapters
-
-Phase 7: wrap these Universal Skills in model-specific adapters under `adapters/` — do not fork rule content.
+One skill = one task. Adapters change tone/shape only.

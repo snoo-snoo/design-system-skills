@@ -4,15 +4,15 @@ Evidenzbasiertes Wissensmodell für UI/UX-Regeln und modellunabhängige AI Desig
 
 ## Status
 
-**Phase:** Wave A complete (Phases 0–6) — 7 CORE Canonical Rules + 7 Universal Skills. Next: Phase 7 Model Adapters / Wave B research.
+**Phase:** Wave A complete (Phases 0–8) — CORE Rules, Universal Skills, Model Adapters (Claude/Grok/ChatGPT), Validation Loop.
 
 Siehe:
 
 - [`docs/intelligence/README.md`](docs/intelligence/README.md) — Überblick
 - [`docs/intelligence/rules/README.md`](docs/intelligence/rules/README.md) — Canonical Rules
-- [`docs/intelligence/skills/README.md`](docs/intelligence/skills/README.md) — Universal Skills
+- [`docs/intelligence/skills/README.md`](docs/intelligence/skills/README.md) — Skills + Adapters
+- [`docs/intelligence/validation/README.md`](docs/intelligence/validation/README.md) — Validation Loop
 - [`docs/intelligence/synthesis/wave-a.md`](docs/intelligence/synthesis/wave-a.md) — Cross-Source Synthesis
-- [`docs/intelligence/research/07-research-plan.md`](docs/intelligence/research/07-research-plan.md) — Research-Plan
 
 ## Repo-Setup
 

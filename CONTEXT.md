@@ -16,17 +16,19 @@
 | **EXPERIMENTAL** | Regel mit unzureichender oder widersprüchlicher Evidenz |
 | **Universal Skill** | Modellunabhängiger AI Skill; Source of Truth |
 | **Model Adapter** | Plattformspezifische Hülle um einen Universal Skill |
+| **Validation Loop** | Self-review + checklists + report after each skill/adapter run |
 | **Speech vs Shown** | Konfliktmarkierung zwischen gesagter und gezeigter UI |
 | **Wave A–D** | Themenpriorisierung für Research Sprints |
 
 ## Decisions so far
 
-- Phase 0–6 Wave A completed (2026-08-20): Research → Analysis → Principles → Synthesis → 7 CORE Rules → 7 Universal Skills.
+- Wave A Phases 0–8 completed (2026-08-20): Research → … → CORE Rules → Universal Skills → Model Adapters → Validation Loop.
+- Adapters must not fork rules; Claude / Grok / ChatGPT profiles only change tone/shape.
+- Validation: any P0 fail on `wave-a-core` → verdict `fail`.
 - Social/Reels allein keine CORE-Evidence; Craft-Practices bleiben CANDIDATE.
-- Konfliktlösung folgt P0–P7 (Accessibility vor Ästhetik).
-- CX-003: Persistent labels = default (RULE-FORM-LABEL-001); floating labels non-default.
+- CX-003: Persistent labels = default; floating labels non-default.
 - Token-Werte werden nicht erfunden.
-- Next: Phase 7 Model Adapters; Wave-B sources (Material/Atlassian, forms DS pages).
+- Next: Wave-B sources; optional promote CANDIDATE principles; optional runtime wiring of validation reports.
 
 ## ADR pointer
 

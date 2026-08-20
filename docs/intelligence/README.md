@@ -6,22 +6,6 @@ Lebendes, evidenzbasiertes Design-System-Wissensmodell für AI — nicht ein Pro
 
 Jede Quelle ist zunächst **Research Material**, nicht Wahrheit.
 
-Strikte Trennung von:
-
-| Klasse | Beispiel |
-| --- | --- |
-| Persönliche Meinung | „Ich mag Rounded Corners“ |
-| Subjektiver Geschmack | „Neon ist modern“ |
-| Persönlicher Workflow | „Ich starte immer in Figma Auto Layout“ |
-| Empirische Best Practice | „Touch Targets ≥ 44×44 px verbessern Fehlerraten“ |
-| Usability-Prinzip | Nielsen Heuristics, Cognitive Load |
-| Accessibility-Anforderung | WCAG 2.2 Contrast / Focus |
-| Design-System-Konvention | Semantic Tokens, Composition |
-| Plattformkonvention | Apple HIG / Material Navigation |
-| Technische Einschränkung | CSS Cascade, Native Controls |
-| Visuelle Präferenz | Brand Expression |
-| Wissenschaftlich belegtes Prinzip | Fitts’s Law, Hick’s Law |
-
 Eine Regel wird erst **CORE**, wenn mehrere hochwertige Quellen oder starke UX-/A11y-Prinzipien sie stützen. Sonst: `EXPERIMENTAL` / `CANDIDATE`.
 
 ## Zielarchitektur
@@ -34,12 +18,7 @@ SOURCE → CONTENT → ANALYSIS → RESEARCH → KNOWLEDGE → SKILL → ADAPTER
 
 ```text
 P0 – Accessibility & Usability
-P1 – Functional clarity
-P2 – Information hierarchy
-P3 – Interaction consistency
-P4 – Design-system consistency
-P5 – Visual hierarchy
-P6 – Brand expression
+… 
 P7 – Aesthetic preferences
 ```
 
@@ -54,8 +33,8 @@ P7 – Aesthetic preferences
 | 4 Cross-Source Synthesis | ✅ | [synthesis/wave-a.md](synthesis/wave-a.md) |
 | 5 Canonical Rules | ✅ | [rules/](rules/README.md) (7 CORE) |
 | 6 Atomic Skills | ✅ | [skills/universal/](skills/README.md) |
-| 7 Model Adapters | Geplant | Claude / Grok / ChatGPT |
-| 8 Validation Loop | Geplant | Self-Review Checklists |
+| 7 Model Adapters | ✅ | [skills/adapters/](skills/adapters/README.md) |
+| 8 Validation Loop | ✅ | [validation/](validation/README.md) |
 
 ## Einstiege
 
@@ -68,5 +47,7 @@ P7 – Aesthetic preferences
 | [synthesis/](synthesis/README.md) | Phase-4 Synthesis |
 | [rules/](rules/README.md) | Phase-5 Canonical Rules |
 | [skills/](skills/README.md) | Phase-6 Universal Skills |
+| [skills/adapters/](skills/adapters/README.md) | Phase-7 Model Adapters |
+| [validation/](validation/README.md) | Phase-8 Validation Loop |
 | [schemas/](schemas/) | Datenformate |
 | [capture/](capture/) | Capture Checklists |

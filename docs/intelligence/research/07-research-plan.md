@@ -1,82 +1,67 @@
-# Research-Plan — Phases 0–6
+# Research-Plan — Phases 0–8
 
-**Status:** Phase 0–6 Wave A ✅ (2026-08-20) · Phase 7–8 geplant  
-**Nächster Schritt:** Wave-B Quellen (Material/Atlassian, Forms DS pages) · Phase 7 Model Adapters
+**Status:** Wave A Phases 0–8 ✅ (2026-08-20)  
+**Nächster Schritt:** Wave-B Quellen (Material/Atlassian, Forms DS pages) · promote CANDIDATE principles when evidence allows
 
 ## Ziel
 
-Aus öffentlichen Design-Ressourcen belastbare Principles und Canonical Rules gewinnen und daraus atomare Universal Skills ableiten — ohne Meinungen zu automatischen Regeln zu erklären.
+Aus öffentlichen Design-Ressourcen belastbare Principles und Canonical Rules gewinnen, daraus atomare Universal Skills ableiten, modellspezifisch wrappen und validieren — ohne Meinungen zu automatischen Regeln zu erklären.
 
-## Scope Freeze (durch Wave A)
+## Scope Freeze (Wave A complete)
 
 In Scope (geliefert):
 
 - Foundations, Accessibility, Core Components (Dialog/Tabs), Forms labels
-- Evidenz aus Design Systems, Standards, Heuristics, kuratierten Videos
-- Schema-ready Artifacts → CORE Rules → Universal Skills
+- Evidenz → Principles → Synthesis → CORE Rules → Universal Skills
+- Model Adapters (Claude / Grok / ChatGPT)
+- Validation Loop + checklists + report schema
 
 Out of Scope (noch):
 
-- Model Adapters (Phase 7)
-- Validation Loop Automation (Phase 8)
 - Automatisierte Instagram-Scraping-Pipeline
 - Token-Zahlen erfinden
 - Brand/Marketing-Ästhetik als universelle Product-UI-Rules
+- Runtime app automation (docs-level loop only for now)
 
 ---
 
 ## Arbeitspakete
 
-### WP0 — Taxonomy & Schemas ✅
+### WP0–WP6 ✅
 
-- [x] Taxonomie, Waves, Experten, Quellen, DS Matrix, Standards, Schemas
+Research → Indexing → Analysis → Principles → Synthesis → CORE Rules → Universal Skills
 
-### WP1 — Source Indexing ✅
+### WP7 — Model Adapters ✅
 
-- [x] Source Profiles + Capture checklists + Contradiction log stub
+- [x] Adapter schema + contract (no forked rules)
+- [x] Profiles: Claude, Grok, ChatGPT
+- [x] Thin skill adapters for all 7 Universal Skills
+- [x] Shared invoke template + validation hook
 
-### WP2 — Content Analysis ✅ (Wave A sample set)
+**Deliverable:** [`docs/intelligence/skills/adapters/`](../skills/adapters/README.md)
 
-- [x] ST-001/002/003 maps · DS-002/003/005 · VID-SAMPLE-001…007
+### WP8 — Validation Loop ✅
 
-### WP3 — Principle Extraction ✅
+- [x] Loop process (`validation/loop.md`)
+- [x] Checklists: wave-a-core, accessibility, consistency, ux, design-system
+- [x] Report schema + template + example
+- [x] P0 fail = block verdict
 
-- [x] Principle cards under `docs/intelligence/principles/`
-
-### WP4 — Cross-Source Synthesis ✅
-
-- [x] [`docs/intelligence/synthesis/wave-a.md`](../synthesis/wave-a.md)
-- [x] Consensus / contradictions / context splits / emerging patterns
-
-### WP5 — Canonical Rules ✅ (Wave A CORE batch)
-
-- [x] [`docs/intelligence/rules/`](../rules/README.md) — 7 CORE rules
-
-### WP6 — Atomic Universal Skills ✅ (from CORE only)
-
-- [x] [`docs/intelligence/skills/universal/`](../skills/README.md) — 7 skills
-
-### WP7 — Model Adapters (next)
-
-- [ ] Claude / Grok / ChatGPT wrappers; no forked rule content
-
-### WP8 — Validation Loop (later)
-
-- [ ] Self-review checklists wired into application flows
+**Deliverable:** [`docs/intelligence/validation/`](../validation/README.md)
 
 ---
 
 ## Wave A CORE batch
 
-| Rule | Skill |
-| --- | --- |
-| RULE-FOCUS-001 | ensure-visible-focus |
-| RULE-TOUCH-001 | size-touch-targets |
-| RULE-FORM-LABEL-001 | label-form-fields |
-| RULE-DIALOG-001 | build-accessible-modal |
-| RULE-TABS-001 | build-accessible-tabs |
-| RULE-SPACE-001 | apply-spacing-scale |
-| RULE-COLOR-001 | apply-semantic-color |
+| Rule | Skill | Adapters |
+| --- | --- | --- |
+| RULE-FOCUS-001 | ensure-visible-focus | claude / grok / chatgpt |
+| RULE-TOUCH-001 | size-touch-targets | claude / grok / chatgpt |
+| RULE-FORM-LABEL-001 | label-form-fields | claude / grok / chatgpt |
+| RULE-DIALOG-001 | build-accessible-modal | claude / grok / chatgpt |
+| RULE-TABS-001 | build-accessible-tabs | claude / grok / chatgpt |
+| RULE-SPACE-001 | apply-spacing-scale | claude / grok / chatgpt |
+| RULE-COLOR-001 | apply-semantic-color | claude / grok / chatgpt |
 
 CANDIDATE (no skill yet): RADIUS-*, COLOR-RESTRAINT, TEXT-ALIGN, BORDER-RESTRAINT, FORM-FEEDBACK, COMPONENT-API-PARITY  
 EXPERIMENTAL: CARD-SURFACE-001
@@ -92,6 +77,7 @@ EXPERIMENTAL: CARD-SURFACE-001
 5. Jede Normalisierung muss Originalaussage referenzieren.
 6. Rules dürfen sich durch neue Evidenz ändern — Changelog führen.
 7. Skills nur aus CORE Rules; ein Skill = eine Aufgabe.
+8. Adapters forken keine Rules; Validation Loop nach jedem Run.
 
 ---
 
@@ -106,21 +92,20 @@ docs/intelligence/
 ├── principles/               ← Phase 3
 ├── synthesis/                ← Phase 4
 ├── rules/                    ← Phase 5
-├── skills/                   ← Phase 6
-│   └── universal/
-│   └── adapters/             ← Phase 7 (pending)
-└── capture/
+├── skills/                   ← Phase 6–7
+│   ├── universal/
+│   └── adapters/
+└── validation/               ← Phase 8
 ```
 
 ---
 
-## Definition of Done — Wave A (Phases 0–6)
+## Definition of Done — Wave A (Phases 0–8)
 
 - [x] Taxonomy & evidence model
-- [x] Indexed sources + analyses for Wave A set
-- [x] Principles extracted
-- [x] Cross-source synthesis written
-- [x] CORE Canonical Rules gated
-- [x] Universal Skills for each CORE rule
-- [ ] Model adapters
-- [ ] Automated validation loop
+- [x] Indexed sources + analyses
+- [x] Principles + synthesis
+- [x] CORE Canonical Rules
+- [x] Universal Skills
+- [x] Model adapters (Claude / Grok / ChatGPT)
+- [x] Validation loop + checklists + report template
